@@ -1,0 +1,11 @@
+.search {
+    display: flex;
+}
+
+.search-input {
+    border-radius: 20px;
+    background: none;
+    color: black;
+    outline: none;
+    border: .5px solid black;
+}
