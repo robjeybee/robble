@@ -1,4 +1,6 @@
-import { render, screen } from "@testing-library/react";
-import { vi, expect, it, describe, beforeEach } from "vitest";
+import { render } from "@testing-library/react";
 import Search from "../components/Search";
 
+it("Should render Search component", () => {
+    render(<Search />)
+})
